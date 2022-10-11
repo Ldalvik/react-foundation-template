@@ -1,14 +1,8 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from '@testing-library/react'
+import App from './App'
 
-test('Page contains Gone Fishing text', () => {
-  render(<App />);
-  const text = screen.getByText("Gone Fishing");
-  expect(text).toBeInTheDocument();
-});
-
-test('Page contains starter boat', () => {
-  render(<App />);
-  const text = screen.getByText("Dilapidated Boat");
-  expect(text).toBeInTheDocument();
-});
+test('Page contains app title', () => {
+  render(<App />)
+  const text = screen.getByText("React on Foundation")
+  expect(text).toBeInTheDocument()
+})
