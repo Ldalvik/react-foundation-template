@@ -1,6 +1,6 @@
 # React on Foundation
 
-This is a React template that has built-in libraries like Foundation SCSS, foundation-css (React library) router-dom, react-toasify, and more.
+This is a React template that has built-in libraries like Foundation SCSS, foundation-css (React library) router-dom, react-toastify, motion-ui and more.
 
 # How to use
 
