@@ -4,3 +4,10 @@ Adds a nice to shadow to pretty much any component
 .bar-shadow {
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .3);
 }
+
+/* Top bar title style overrides */
+.topbar-title {
+  color: #383838b6 !important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
