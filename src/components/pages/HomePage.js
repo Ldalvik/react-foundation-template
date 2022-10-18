@@ -1,6 +1,6 @@
 import GridContainer from '../layouts/GridContainer'
 
-const SplashScreen = () => {
+const HomePage = () => {
     return (
         <GridContainer>
             <h1 className="text-center">React on Foundation</h1>
@@ -8,4 +8,4 @@ const SplashScreen = () => {
     )
 }
 
-export default SplashScreen
+export default HomePage
