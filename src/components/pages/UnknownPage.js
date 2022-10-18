@@ -1,4 +1,4 @@
-import GridContainer from "./GridContainer"
+import GridContainer from "../layouts/GridContainer"
 
 const UnknownPage = () => {
     return(
