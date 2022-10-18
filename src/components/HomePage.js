@@ -1,11 +1,9 @@
-import { GridContainer } from "react-foundation"
+import GridContainer from './GridContainer'
 
 const SplashScreen = () => {
     return (
         <GridContainer>
-            <div className="grix-x grid-padding-x grid-padding-y">
-                <h1 className="text-center">React on Foundation</h1>
-            </div>
+            <h1 className="text-center">React on Foundation</h1>
         </GridContainer>
     )
 }
