@@ -12,8 +12,8 @@ import 'foundation-sites/dist/css/foundation.min.css'
 //Foundation SCSS
 import './assets/app.scss'
 
-//Your own CSS
-import './assets/index.css'
+//Your own SCSS
+import './assets/index.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
